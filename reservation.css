@@ -1,0 +1,213 @@
+body {
+    background-image: url(pic/pattern.png);
+    background-repeat:repeat;
+    margin: 0;
+    padding-top: 163px;
+    font-family:'Berkshire Swash', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight:400;
+    color:#fff;
+    letter-spacing:1px;
+
+}
+header {
+    background-color: rgb(34, 2, 2);
+    color: white;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    transition: background-color 0.5s ease;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    z-index: 1000;
+}
+@font-face {
+    font-family: 'Berkshire Swash';
+    src: url('fonts/BerkshireSwash-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+nav a {
+    color: rgb(226, 180, 43);
+    margin: 0 15px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+nav a:hover {
+    color: rgb(255, 106, 0);
+}
+
+header img {
+    height: 60px;
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+nav {
+    display: inline-block;
+    text-align: left;
+    margin-right: 30px;
+}
+
+footer {
+    background-color: #000000;
+    padding: 20px;
+    color: #ffffff; /* Text color */
+    margin-top: 80px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-media {
+    color: #fff;
+}
+
+.social-link {
+    text-decoration: none;
+    margin-right: 10px;
+    color: #fff; /* Social media link color */
+}
+
+.contact-info {
+    color: #fff;
+}
+
+/* Style the copyright text */
+footer small {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #999; /* Footer text color */
+}
+
+  footer div a {
+    text-decoration: none;
+    color:white;
+  }
+
+  /* Example CSS to style the footer */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-media a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #ffffff; /* Adjust the color as needed */
+    padding: 5px;
+    font-size: 16px;
+}
+
+.social-media a img {
+    width: 32px; /* Adjust the image size as needed */
+    height: 32px;
+    padding: 5px;
+}
+*{
+    scrollbar-width: auto;
+    scrollbar-color: #ffc766 #571414;
+  }
+
+*::-webkit-scrollbar {
+width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+background: #440f0f;
+}
+
+*::-webkit-scrollbar-thumb {
+background-color: #ffc766;
+border-radius: 10px;
+border: 3px solid #8f7a0f;
+}
+
+.container {
+background-color:white;
+margin:5px 25px;
+display:grid;
+grid-template-columns: 40% 60%;
+border-radius: 20px;
+outline:3px solid #ffc766;
+}
+
+.container-time {
+    background-color:rgba(0,0,0,0.95);
+    padding:50px;
+    outline:3px  dashed #998100;
+    outline-offset:-30px;
+    text-align: center;
+    border-radius: 20px;
+}
+.heading {
+    
+    font-size:35px;
+    text-transform:uppercase;
+}
+
+.heading-days {
+    color:#998100;
+    font-size: 30px;
+}
+
+.heading-phone {
+    font-size:20px;
+}
+
+.container-form {
+    padding:20px 0;
+    margin: 0 auto;
+    color :#000;
+}
+
+form {
+    display :grid;
+    grid-row-gap: 20px;
+
+}
+
+.form-field{
+    display:flex;
+    justify-content: space-between;
+}
+
+input,select {
+    padding:10px 15px ;
+}
+
+.btn {
+    background-color:rgba(0,0,0,.95);
+    color:#fff;
+    padding:10px 20px;
+    border :none;
+    font-size:18px;
+    border-radius: 100px;
+    -webkit-border-radius:100px;
+    -moz-border-radius:100px;
+    -ms-border-radius: 100px;
+    -o-border-radius:100px;
+    box-shadow: 7px 10px 12px rgba(0,0,0,.1);
+    cursor: pointer;
+    transition:all .5s;
+    -webkit-transition:all .5s;
+    -moz-transition:all .5s;
+    -ms-transition :all .5s;
+    -o-transition:all .5s;
+}
+
+.btn:hover{
+    
+    box-shadow:10px 12px 15px rgba(0,0,0,.3);
+}
